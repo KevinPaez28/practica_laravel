@@ -39,7 +39,7 @@ class programaServices
       'data' => $programa,
     ];
   }
-  public function deleteCity($id)
+  public function deleteprograma($id)
     {
         $city = programa::find($id);
 

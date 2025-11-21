@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('jornadas', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
-            $table->foreignId('horaro_id')->constrained('horarios');
+            $table->foreignId('horario_id')->constrained('horarios');
             $table->timestamps();
         });
     }
